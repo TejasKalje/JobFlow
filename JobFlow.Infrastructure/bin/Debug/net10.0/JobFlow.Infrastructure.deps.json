@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "JobFlow.Infrastructure/1.0.0": {
+        "dependencies": {
+          "JobFlow.Application": "1.0.0",
+          "JobFlow.Domain": "1.0.0"
+        },
+        "runtime": {
+          "JobFlow.Infrastructure.dll": {}
+        }
+      },
+      "JobFlow.Application/1.0.0": {
+        "dependencies": {
+          "JobFlow.Domain": "1.0.0"
+        },
+        "runtime": {
+          "JobFlow.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "JobFlow.Domain/1.0.0": {
+        "runtime": {
+          "JobFlow.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "JobFlow.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JobFlow.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JobFlow.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
